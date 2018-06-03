@@ -6,9 +6,9 @@ class Person
     @this_person_name
   end
   def job=(person_job)
-    @this_person_job = dog_breed
+    @this_person_job = person_job
   end
-  def breed
-    @this_dog_breed
+  def job
+    @this_person_job
   end
 end
